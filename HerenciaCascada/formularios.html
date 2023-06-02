@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fomulario</title>
+    <link rel="stylesheet" href="css/formulario.css">
+
+</head>
+
+
+<!-- Notas:
+
+    El form agarra todos los datos para enviarlo al backend
+
+    El get manda al url 
+
+    El post envia por debajo de la urele
+
+
+
+
+
+-->
+
+
+
+<body>
+
+    <form action="" method="get"> 
+
+   
+       <div>
+           <div class="input">
+
+            <label for="id">Nombre:</label>
+            <input type="text" name="id" id="id"   pattern="a" placeholder="Digite su nombre" maxlength="30">
+
+            </div>
+
+
+            <div class="input">
+
+                <label for="id">Numeros:</label>
+                <input type="number" name="num" id="num" placeholder="Digite los numeros">
+    
+                </div>
+            
+        
+        
+         <div class="input">
+
+            <label for="id">Nombre:</label>
+            <input type="text" name="id" id="id">
+
+            </div>
+
+
+
+            <div class="input">
+
+                <label for="pass">Contrasena:</label>
+                <input type="password" name="pass" id="pass">
+            
+            </div>
+
+
+            <div class="input">
+
+                <label for="color">Color:</label>
+                <input type="color" name="color" id="color">
+            
+            </div>
+
+
+
+            <div class="input">
+
+                <label for="fecha">Fecha:</label>
+                <input type="date" name="fecha" id="fecha">
+            
+            </div>
+
+
+            
+            <div class="input">
+
+                <label for="fecha">Correo electronico</label>
+                <input type="email" name="correo" id="correo">
+            
+            </div>
+
+
+
+            
+            <div class="input">
+
+                <label for="fecha">Hora:</label>
+                <input type="time" name="hora" id="hora">
+            
+            </div>
+
+            
+            <div class="input">
+
+                <label for="correo">Archivo:</label>
+                <input type="file" name="file" id="file">
+            
+            </div>
+
+            <div class="input">
+
+                <label for="url">Url:</label>
+                <input type="url" name="url" id="url">
+            
+            </div>
+
+            <div class="input">
+
+                <input type="hidden" name="codigo" id="codigo">
+            
+            </div>
+
+            <div class="input">
+
+                <label for="correo">descripcion:</label>
+                <textarea name="descripcion" id="descripcion" cols="30" rows="10"></textarea>
+            
+            </div>
+
+
+            <div class="input">
+
+                <label for="file">Pizza:</label>
+                <input type="radio" name="comida3"  value="1"></input>
+
+                <label for="file">Hambuerguesas:</label>
+                <input type="radio" name="comida"  value="2"></input>
+                
+                <label for="file">Tacos:</label>
+                <input type="radio" name="comida"  value="3"></input>
+
+                <label for="file">Perros:</label>
+                <input type="radio" name="comida"  value="4"></input>
+
+            
+            </div>
+
+
+            <div class="input">
+
+                <label for="file">Natural:</label>
+                <input type="checkbox" name="comida"  value="1"></input>
+
+                <label for="file">Gaseoso:</label>
+                <input type="checkbox" name="comida"  value="2"></input>
+                
+                <label for="file">Alcholicas:</label>
+                <input type="checkbox" name="comida"  value="3"></input>
+
+                <label for="file">Otros:</label>
+                <input type="checkbox" name="comida"  value="4"></input>
+
+            
+            </div>
+
+            <div class="input">
+
+                <label for="file">Escoja marca:</label>
+                <select name="marca" id="marca">
+                    
+                    <option value="1"> Toyota</option>
+                    <option value="2">Nissan</option>
+                    <option value="3">Mitsubichi</option>
+                    <option value="4">Kia</option>
+                    <option value="5">BMW</option>
+                </select>
+              
+            
+            </div>
+
+
+
+            <div class="inp">
+
+                <label for="edad">EDAD:</label>
+                <input type="range" name="edad" id="edad" max="90" min="15"></input>
+
+            </div>
+
+
+
+
+
+
+        </div>
+
+    
+        
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </div>
+
+
+    
+    </form>
+        
+</body>
+
+
+
+
+
+</html>

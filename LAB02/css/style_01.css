@@ -1,0 +1,121 @@
+/*General para todos los formatos*/
+:root {
+    --fondo: #0A0B0D;
+    --primary: #2f3549;
+    --light: #ffffff;
+    --orange: #ddaf30;
+    --cherry: #BF3B84;
+    --fondo2: #12121C;
+}
+
+
+body {
+    background: var(--fondo2);
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* estilo para el cuerpo de la pagina*/
+.cuerpo {
+    color:white;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    background:
+}
+
+/* estilo barra de navegacion */
+.franja_fondo {
+    background-color: var(--primary);
+    height: 34px;
+}
+
+.menu li {
+    display: block;
+    padding: 8px;
+    float: left;
+}
+
+.menu li a {
+    color: var(--light);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.menu li a:hover {
+    color: var(--orange);
+}
+
+/* estilo para el contenido primario */
+.principal {
+    padding: 10px;
+    color: white;
+}
+
+.parr_01 {
+    color: white;
+    text-align: justify;
+    font-size: 22px;
+    line-height: 25px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.parr_02 {
+    text-align: justify;
+    font-size: 18px;
+    margin-left: 15px;
+    margin-right: 10px;
+ 
+}
+
+.parr_03 {
+    text-align: right;
+    font-size: 12px;
+    margin-left: 15px;
+    margin-right:50px;
+ 
+}
+
+.imgdivL {
+    width: 27%;
+    display: block;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.imgdivR {
+    width: 15%;
+    display: block;
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+/* estilo para el pie de pagina */
+.pie {
+    background-color: var(--primary);
+    color: var(--light);
+    font-size: 12px;
+}
+
+.celdaizq {
+    text-align: left;
+    width: 250px;
+    padding: 5px;
+}
+
+.celdader {
+    text-align: right;
+    width: 250px;
+    padding: 5px;
+}
+
+.celdacen {
+    text-align: center;
+    width: 524px;
+    padding: 5px;
+    border-left: 1px solid var(--light);
+    border-right: 1px solid var(--light);
+}

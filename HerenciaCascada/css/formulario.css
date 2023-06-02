@@ -1,0 +1,18 @@
+div.input> input,label{
+
+   display: inline-flex;
+
+}
+
+
+div.input>label{
+   width: 100px;
+
+}
+
+div.input{
+    margin: 5px 0px;
+
+
+
+}
